@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "nexey-stag"
+  },
+  "targets": {
+    "nexey-stag": {
+      "hosting": {
+        "prod": [
+          "nexey-stag"
+        ],
+        "staging": [
+          "staging-nexey-stag"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
